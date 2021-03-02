@@ -2,5 +2,9 @@ a{
     color: black;
 }
 nav{
-    align-items: center;
+    display: inline-flex;
+    justify-self: center;
+}
+.nav-item{
+    padding: 10px;
 }
