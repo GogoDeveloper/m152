@@ -4,9 +4,14 @@ body{
 
 header{
     background-color: lightblue;
+    width: 100%;
+}
+
+nav{
     display: inline-flex;
     flex-direction: row;
 }
+
 
 a{
     color: black;
