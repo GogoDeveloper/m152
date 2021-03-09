@@ -5,11 +5,14 @@ body{
 header{
     background-color: lightblue;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 nav{
     display: inline-flex;
     flex-direction: row;
+    padding: 50px;
 }
 
 
