@@ -53,10 +53,14 @@ a:hover {
   color: white;
 
   -webkit-animation: rotate-90-cw 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    infinite forwards, movefw 0.4s;
+    infinite forwards;
   animation: rotate-90-cw 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite
-      forwards,
-    movefw 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite forwards;
+      forwards;
+    
+}
+.mii{
+    -webkit-animation: movefw 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite forwards;
+    animation: movefw 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite forwards;
 }
 
 @-webkit-keyframes rotate-90-cw {
