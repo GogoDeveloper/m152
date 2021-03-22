@@ -54,7 +54,7 @@ a:hover{
     color: white;
 
     -webkit-animation: rotate-90-cw 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite forwards;
-	        animation: rotate-90-cw 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite forwards, movefw 1s;
+	        animation: rotate-90-cw 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite forwards, movefw 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite forwards;
 }
 
 
