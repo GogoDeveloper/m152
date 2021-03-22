@@ -158,8 +158,8 @@ a:hover {
 
 @keyframes movefw {
   0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
+    -webkit-transform: translateX(-10%);
+    transform: translateX(-10%);
   }
   5%{
     -webkit-transform: translateX(10%);
@@ -213,8 +213,8 @@ a:hover {
 
 @-webkit-keyframes movefw{
     0% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
+        -webkit-transform: translateX(-10%);
+        transform: translateX(-10%);
       }
       5%{
         -webkit-transform: translateX(10%);
