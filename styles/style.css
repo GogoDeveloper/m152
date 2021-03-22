@@ -47,7 +47,9 @@ a:hover{
     border: 1px solid black;
     border-radius: 100%;
     background-color: brown;
-    height: 20px;
-    width: 20px;
+    height: 200px;
+    width: 200px;
     padding: 10px;
+    text-align: center;
+    color: white;
 }
