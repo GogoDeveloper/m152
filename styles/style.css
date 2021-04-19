@@ -1,5 +1,4 @@
-body {
-    margin: 0;
+html {
     background: linear-gradient(white 10%, darkblue, black);
     height: 100%;
     -webkit-background-size: cover;
@@ -7,6 +6,11 @@ body {
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+body {
+    margin: 0;
+    
 }
 
 header {
