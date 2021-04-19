@@ -30,11 +30,11 @@ a:hover {
 #siteSelect {
     display: flex;
     justify-content: center;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 .site {
-    padding: 10px;
+    padding: 50px;
     background-color: black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 0 5px 0 5px;
@@ -43,4 +43,9 @@ a:hover {
 }
 .site > a {
     padding: 10px;
+}
+
+.site:hover {
+    background-color: lightgrey;
+    border: 1px solid white;
 }
