@@ -23,9 +23,7 @@ a {
     color: white;
     text-decoration: none;
 }
-a:hover {
-    color: gray;
-}
+
 
 #siteSelect {
     display: flex;
@@ -34,18 +32,24 @@ a:hover {
 }
 
 .site {
-    padding: 50px;
-    background-color: black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 0 5px 0 5px;
-    border: 1px solid white;
-    border-radius: 10px;
-}
-.site > a {
-    padding: 10px;
+    
 }
 
-.site:hover {
-    background-color: lightgrey;
-    border: 1px solid white;
-}
+    .site > a {
+        padding: 60px;
+        background-color: black;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin: 0 5px 0 5px;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+
+        .site > a:hover {
+            color: gray;
+            background-color: lightgrey;
+            border: 1px solid white;
+        }
+
+    .site:hover {
+        
+    }
