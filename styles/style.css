@@ -32,3 +32,10 @@ a:hover {
     justify-content: center;
     margin-top: 30%;
 }
+
+.site {
+    padding: 10px;
+    background-color: lightcyan;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 5px 0 5px;
+}
