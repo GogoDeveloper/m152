@@ -89,7 +89,7 @@
             <?php if (isset($_POST['submit'])): ?>
                 <div id="warning">
                     <h3>Sind Sie sicher, dass Sie das Spiel herunterladen wollen?</h3>
-                        <a href="GUP.zip" download="GUP_Program" onclick="alertFunction()">Ja</a>
+                        <a href="../GUP.zip" download="GUP_Program" onclick="alertFunction()">Ja</a>
                     <button type="submit" name="no">
                         Nein
                     </button>
