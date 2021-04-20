@@ -96,7 +96,7 @@
             </div>
             <div class="card-footer text-muted">
                 This website was created by © Gottfried Stoll,
-                all rights reserved. <a href="./impressum.php">Impressum</a> | <a href="./datenschutz.php">Datenschutzerklärung</a>
+                all rights reserved. <a href="sites/impressum.php">Impressum</a> | <a href="sites/datenschutz.php">Datenschutzerklärung</a>
             </div>
         </div>
     </footer>
