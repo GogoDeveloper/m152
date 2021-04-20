@@ -87,9 +87,7 @@
         <div class="p-2 w-100 bd-highlight">
             <p>
                 Hallo!<br>Mein Name ist Gottfried Stoll und ich bin Informatiker
-                im ersten Lehrjahr. Meine Firma heisst Zürcher Lehrbetriebsverband ICT (ZLI). <br>Ab August 2019
-                werde ich jedoch
-                bei der Sevitec AG arbeiten um dort meine 4-jährige Lehre als Applikationsentwickler zu absolvieren.
+                im dritten Lehrjahr.
                 <br>Ich wollte unbedingt mal ein Spiel programmieren,
                 und da Pac-Man ein Klassiker ist, und mir ausserdem noch gefällt, wollte
                 ich es mal <br>selber ausprobieren. Ich hoffe dass es Ihnen gefällt, <br>denn ich habe
@@ -117,8 +115,8 @@
             Gogo's Ultimate Pac-Man
         </div>
         <div class="card-footer text-muted">
-            This website has no intention to harass no one, in no form. This website was created by © Gottfried Stoll,
-            all rights reserved.
+            This website was created by © Gottfried Stoll,
+            all rights reserved. <a href="./impressum.php">Impressum</a> <a href="./datenschutz.php">Datenschutzerklärung</a>
         </div>
     </div>
 </footer>

@@ -12,10 +12,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#f40032">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+    <link rel="mask-icon" href="../img/favicon/safari-pinned-tab.svg" color="#f40032">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
@@ -33,12 +33,12 @@
     <!--CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/success-style.css">
+    <link rel="stylesheet" href="../styles/success-style.css">
 
     <title>Success-Page</title>
 </head>
 <body>
 <div class='alert alert-success' role='alert'><h4>Sie haben das Spiel erfolgreich heruntergeladen!</h4></div><br>
-<a id='backtohp' href='index.php' >Zurück zur homepage</a>
+<a id='backtohp' href='../index.php' >Zurück zur homepage</a>
 </body>
 </html>
