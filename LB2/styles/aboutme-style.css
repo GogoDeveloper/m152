@@ -103,7 +103,6 @@ h1 {
 
 .d-flex.bd-highlight{
     padding-top: 50px;
-    margin-bottom: 2vm;
 }
 .p-2.flex-shrink-1.bd-highlight{
     padding-left: 0!important;
@@ -131,6 +130,7 @@ h1 {
 #picofme:hover{
     transform: scale(1.5); 
     margin-left: 100px;
+    margin-right: 20px;
 }
 
 /*Footer*/
