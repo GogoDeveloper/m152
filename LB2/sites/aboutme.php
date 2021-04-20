@@ -1,13 +1,9 @@
-﻿<?php
-/**
- * Copyright (c) 20.04.2021.
- * Created by Gottfried Stoll
- */
+<!--
+  ~ Copyright (c) 6.18.2019.
+  ~ Created by Gottfried Stoll
+  -->
 
-?>
-
-
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,11 +11,11 @@
     <!--Responsiveness-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+
     <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#f40032">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
@@ -38,65 +34,85 @@
     <!--CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/index-style.css">
+    <link rel="stylesheet" href="styles/aboutme-style.css">
 
     <!--Title-->
-    <title>GUP - Home</title>
+    <title>GUP - About Me</title>
 </head>
 <body>
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.php">
             <img class="logo" src="img/logo/logo.jpg" alt="logo">
         </a>
-
         <span id="logo-text">
                 Gogo's Ultimate Pac-Man
         </span>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse"
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="navbar-collapse collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.php">
+                        Home
+                    </a>
+                </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="#">
-                        Home
+                        About Me
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="sites/aboutme.php">
-                        About Me
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="sites/download.php">
+                    <a class="nav-link" href="download.php">
                         Download
                     </a>
                 </li>
             </ul>
         </div>
+
     </nav>
 </header>
 <main>
-    <div class="fixed-bg fixed-pic1">
-        <h1>Gogo's Ultimate Pac-Man</h1>
+    <div class="fixed-bg">
+        <h1>About Me</h1>
     </div>
-    <div class="scroll-text">
+    <div class="d-flex bd-highlight">
+        <div class="p-2 flex-shrink-1 bd-highlight">
+            <img src="img/me.jpg" id="picofme" alt="Me">
+        </div>
+        <div class="p-2 w-100 bd-highlight">
+            <p>
+                Hallo!<br>Mein Name ist Gottfried Stoll und ich bin Informatiker
+                im ersten Lehrjahr. Meine Firma heisst Zürcher Lehrbetriebsverband ICT (ZLI). <br>Ab August 2019
+                werde ich jedoch
+                bei der Sevitec AG arbeiten um dort meine 4-jährige Lehre als Applikationsentwickler zu absolvieren.
+                <br>Ich wollte unbedingt mal ein Spiel programmieren,
+                und da Pac-Man ein Klassiker ist, und mir ausserdem noch gefällt, wollte
+                ich es mal <br>selber ausprobieren. Ich hoffe dass es Ihnen gefällt, <br>denn ich habe
+                mir sehr viel Mühe gegeben.
+            </p>
+        </div>
+
+
+    </div>
+
+
+    <div class="align-self-baseline">
         <p>
-            Willkommen auf der Webseite von Gogo's Ultimate Pac-Man (GUP)!<br>
-            Das Spiel ist eine Version von Pac-Man, dass mit Java programmiert wurde.
-            Wenn Sie auf die Download-Seite gehen, können Sie das Spiel auch herunterladen und selbst ausprobieren.
-            Wenn Sie jedoch mehr über den Entwickler wissen wollen, können Sie dies auf der About-Me-Seite finden.
+            Wenn Sie zurück auf die Home-Page wollen, können Sie dies in dem Sie entweder, auf das Logo klicken,<br>
+            oder einfach auf Home klicken. Wenn Sie das Spiel herunterladen wollen, gehen Sie auf die
+            Download-Seite<br>
+            dort werden Sie dann weitergeführt.
         </p>
     </div>
 </main>
 <footer>
     <div class="card text-center">
+
         <div class="card-header">
             Gogo's Ultimate Pac-Man
         </div>

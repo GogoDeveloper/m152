@@ -1,11 +1,9 @@
-﻿<?php
+<?php
 /**
- * Copyright (c) 20.04.2021.
+ * Copyright (c) 6.20.2019.
  * Created by Gottfried Stoll
  */
-
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,7 +12,6 @@
 
     <!--Responsiveness-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
@@ -38,61 +35,75 @@
     <!--CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/index-style.css">
+    <link rel="stylesheet" href="styles/download-style.css">
 
     <!--Title-->
-    <title>GUP - Home</title>
+    <title>GUP - Download</title>
 </head>
 <body>
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.php">
             <img class="logo" src="img/logo/logo.jpg" alt="logo">
         </a>
-
         <span id="logo-text">
                 Gogo's Ultimate Pac-Man
         </span>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse"
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="navbar-collapse collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.php">
                         Home
-                        <span class="sr-only">(current)</span>
+
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="sites/aboutme.php">
+                    <a class="nav-link" href="aboutme.php">
                         About Me
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="sites/download.php">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
                         Download
+                        <span class="sr-only">(current)</span>
                     </a>
                 </li>
             </ul>
         </div>
+
     </nav>
 </header>
 <main>
     <div class="fixed-bg fixed-pic1">
-        <h1>Gogo's Ultimate Pac-Man</h1>
-    </div>
-    <div class="scroll-text">
-        <p>
-            Willkommen auf der Webseite von Gogo's Ultimate Pac-Man (GUP)!<br>
-            Das Spiel ist eine Version von Pac-Man, dass mit Java programmiert wurde.
-            Wenn Sie auf die Download-Seite gehen, können Sie das Spiel auch herunterladen und selbst ausprobieren.
-            Wenn Sie jedoch mehr über den Entwickler wissen wollen, können Sie dies auf der About-Me-Seite finden.
-        </p>
+        <h1>Download GUP</h1>
+
+        <form method="post" action="<?php $_SERVER['PHP_SELF'] ?>">
+            <button type="submit" id="download" name="submit">
+                Spiel Herunterladen (Nur für PC)
+            </button>
+            <?php if (isset($_POST['submit'])): ?>
+                <div id="warning">
+                    <h3>Sind Sie sicher, dass Sie das Spiel herunterladen wollen?</h3>
+                        <a href="GUP.zip" download="GUP_Program" onclick="alertFunction()">Ja</a>
+                    <button type="submit" name="no">
+                        Nein
+                    </button>
+
+                </div>
+            <?php endif; ?>
+                <script>
+                    function alertFunction() {
+                        open("success.php");
+                    }
+                </script>
+
+        </form>
+
     </div>
 </main>
 <footer>
