@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright (c) 6.20.2019.
+ * Copyright (c) 4.20.2021.
  * Created by Gottfried Stoll
  */
 ?>
@@ -35,7 +35,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/download-style.css">
+    <link rel="stylesheet" href="./styles/download-style.css">
 
     <!--Title-->
     <title>GUP - Download</title>
@@ -44,7 +44,7 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.php">
-            <img class="logo" src="img/logo/logo.jpg" alt="logo">
+            <img class="logo" src="./img/logo/logo.jpg" alt="logo">
         </a>
         <span id="logo-text">
                 Gogo's Ultimate Pac-Man
@@ -57,13 +57,13 @@
         <div class="navbar-collapse collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">
+                    <a class="nav-link" href="../index.php">
                         Home
 
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="aboutme.php">
+                    <a class="nav-link" href="./aboutme.php">
                         About Me
                     </a>
                 </li>

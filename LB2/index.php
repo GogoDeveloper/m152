@@ -1,6 +1,6 @@
 ﻿<?php
 /**
- * Copyright (c) 20.04.2021.
+ * Copyright (c) 4.20.2021.
  * Created by Gottfried Stoll
  */
 
