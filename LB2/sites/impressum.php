@@ -1,3 +1,5 @@
+<a class="btn btn-primary" href="../index.html">Zurück</a>
+
 <p><strong>Kontakt-Adresse</strong></p>
 <p>Gottfried Stoll<br />Geibelstrasse 4<br />8037 Z&uuml;rich<br />Schweiz</p>
 <p>E-Mail:<br />gottfried.stoll.zh@gmail.com</p><br /><br />
