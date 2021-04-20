@@ -1,4 +1,4 @@
-<a class="btn btn-primary" href="../index.html">Zurück</a>
+<a class="btn btn-primary" href="../index.php">Zurück</a>
 
 <p><strong>Kontakt-Adresse</strong></p>
 <p>Gottfried Stoll<br />Geibelstrasse 4<br />8037 Z&uuml;rich<br />Schweiz</p>

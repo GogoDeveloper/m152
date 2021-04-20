@@ -1,4 +1,4 @@
-<a class="btn btn-primary" href="../index.html">Zurück</a>
+<a class="btn btn-primary" href="../index.php">Zurück</a>
 
 
 <h2>Datenschutzerkl&auml;rung</h2>
