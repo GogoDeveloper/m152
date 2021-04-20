@@ -82,7 +82,7 @@
     </div>
     <div class="d-flex bd-highlight">
         <div class="p-2 flex-shrink-1 bd-highlight">
-            <img src="./img/me.jpg" id="picofme" alt="Me">
+            <img src="../img/me.jpg" id="picofme" alt="Me">
         </div>
         <div class="p-2 w-100 bd-highlight">
             <p>
