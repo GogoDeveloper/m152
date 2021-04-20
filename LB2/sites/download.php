@@ -14,10 +14,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#f40032">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+    <link rel="mask-icon" href="../img/favicon/safari-pinned-tab.svg" color="#f40032">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
@@ -35,7 +35,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles/download-style.css">
+    <link rel="stylesheet" href="../styles/download-style.css">
 
     <!--Title-->
     <title>GUP - Download</title>
@@ -43,8 +43,8 @@
 <body>
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.php">
-            <img class="logo" src="./img/logo/logo.jpg" alt="logo">
+        <a class="navbar-brand" href="../index.php">
+            <img class="logo" src="../img/logo/logo.jpg" alt="logo">
         </a>
         <span id="logo-text">
                 Gogo's Ultimate Pac-Man
